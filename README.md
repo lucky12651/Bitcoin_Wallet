@@ -2,6 +2,11 @@
 
 This program is a simple Bitcoin wallet manager that allows users to check their balance, send Bitcoin to another address, and exit the application.
 
+## Keys
+![key](https://lucky12651.github.io/Bitcoin_Wallet/Screenshot%202024-03-11%20at%201.17.39%20PM.png)
+
+
+
 ## Prerequisites
 
 Before running the program, ensure you have Python installed on your system. Additionally, you need to have the `bitcoinlib` library installed. You can install it using pip:
