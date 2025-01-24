@@ -1,6 +1,6 @@
 from bitcoinlib.wallets import Wallet
 
-passphrase = "negative seed exile notice card rib tray cup duty jump remember learn"
+passphrase = ""
 
 try:
     w = Wallet.create("coibase", keys=passphrase, network='bitcoin')
