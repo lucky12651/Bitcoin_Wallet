@@ -1,0 +1,9 @@
+from bitcoinlib.wallets import Wallet
+
+passphrase = "negative seed exile notice card rib tray cup duty jump remember learn"
+
+try:
+    w = Wallet.create("coibase", keys=passphrase, network='bitcoin')
+    print("Wallet created successfully.")
+except Exception as e:
+    print("Error creating wallet:", e)
